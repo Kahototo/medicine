@@ -14,6 +14,8 @@
 		5EC47B1C1D2C17A0000447C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC47B1A1D2C17A0000447C0 /* LaunchScreen.storyboard */; };
 		5EC47B271D2C17A1000447C0 /* medicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47B261D2C17A1000447C0 /* medicineTests.swift */; };
 		5EC47B321D2C17A1000447C0 /* medicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47B311D2C17A1000447C0 /* medicineUITests.swift */; };
+		5EC47B401D2C1897000447C0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47B3F1D2C1897000447C0 /* CustomTableViewCell.swift */; };
+		5EC47B421D2C18D8000447C0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47B411D2C18D8000447C0 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5EC47B2D1D2C17A1000447C0 /* medicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC47B311D2C17A1000447C0 /* medicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicineUITests.swift; sourceTree = "<group>"; };
 		5EC47B331D2C17A1000447C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC47B3F1D2C1897000447C0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5EC47B411D2C18D8000447C0 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				5EC47B111D2C17A0000447C0 /* AppDelegate.swift */,
 				5EC47B131D2C17A0000447C0 /* ViewController.swift */,
+				5EC47B3F1D2C1897000447C0 /* CustomTableViewCell.swift */,
+				5EC47B411D2C18D8000447C0 /* AddViewController.swift */,
 				5EC47B151D2C17A0000447C0 /* Main.storyboard */,
 				5EC47B181D2C17A0000447C0 /* Assets.xcassets */,
 				5EC47B1A1D2C17A0000447C0 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC47B401D2C1897000447C0 /* CustomTableViewCell.swift in Sources */,
 				5EC47B141D2C17A0000447C0 /* ViewController.swift in Sources */,
+				5EC47B421D2C18D8000447C0 /* AddViewController.swift in Sources */,
 				5EC47B121D2C17A0000447C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +493,7 @@
 				5EC47B381D2C17A1000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC47B391D2C17A1000447C0 /* Build configuration list for PBXNativeTarget "medicineTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				5EC47B3B1D2C17A1000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC47B3C1D2C17A1000447C0 /* Build configuration list for PBXNativeTarget "medicineUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				5EC47B3E1D2C17A1000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
